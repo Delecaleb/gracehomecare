@@ -106,6 +106,25 @@
     background-size:cover;
     background-position: center top;
 }
+@media (max-width: 700px){
+    .hero-header {
+        background: url(../img/hero1.png) no-repeat;
+        background-size:cover;
+        background-position: right center;
+    }
+    .hero-header2 {
+        background: url(../img/hero2.png) no-repeat;
+        background-size:cover;
+        background-position: right center;
+    }
+
+    .hero-header2 .container,  .hero-header .container{
+        background-color: rgba(255, 255, 255, 0.5); 
+        padding: 20px; 
+    }
+    
+}
+
 .about-page-hero-header{
     max-height: 50vh;
     overflow: hidden;
